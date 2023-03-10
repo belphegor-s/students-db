@@ -19,7 +19,6 @@ module.exports = class Student {
 			row.course,
 			row.email,
 		]);
-		console.log(dataArray);
 		return db.query(
 			"INSERT INTO students (name,roll_no,address,institute,course,email) VALUES ?",
 			[dataArray]
