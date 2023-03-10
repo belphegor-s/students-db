@@ -80,6 +80,7 @@ const Home = () => {
 				onClick={() => {
 					authCtx.logout();
 					navigate("/");
+					toast.success("Successfully Logged out!");
 				}}
 			>
 				Logout
