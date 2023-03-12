@@ -30,3 +30,9 @@ button {
 	outline: none;
 	cursor: pointer;
 }
+
+button:disabled {
+	cursor: not-allowed;
+	background-color: #777 !important;
+	color: #fff !important;
+}

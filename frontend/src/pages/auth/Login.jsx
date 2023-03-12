@@ -81,7 +81,7 @@ const Login = () => {
 					{isSignUpActive ? "Signup" : "Submit"}
 				</button>
 				<h3>OR</h3>
-				<button>
+				<button disabled>
 					<img src="/img/google-icon.svg" alt="google" />
 					Login with Google
 				</button>
